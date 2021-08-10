@@ -1,8 +1,8 @@
-import React$1 from 'react';
+import React from 'react';
 
 const Button = ({ label }) => {
-    return React$1.createElement("button", null, label);
+    return React.createElement("button", { className: "des-button-container" }, label);
 };
 
-export default Button;
+export { Button as default };
 //# sourceMappingURL=Button.js.map
