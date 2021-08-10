@@ -1,6 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { Button } from "@ds.e/react";
-import "@ds.e/scss/lib/Button.css";
+import { Color } from "@ds.e/react";
 
-ReactDOM.render(<Button label="Click Me" />, document.getElementById("root"));
+ReactDOM.render(
+  <Color hexCode="#000" width="1rem" height="1rem" />,
+  document.getElementById("root")
+);
